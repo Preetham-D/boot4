@@ -1,6 +1,7 @@
 body {
   background: #333;
-  color: #fff; }
+  /* color: #fff;*/
+}
 
 .navbar {
   border-bottom: #008ed6 3px solid;
@@ -24,6 +25,73 @@ body {
   color: #333;
 }
 
+#card-top {
+  margin-top: 20px;
+}
+
+.card-right-margin{
+  padding: 0px;
+  margin-right: 10px;
+}
+
+/* .card-right-margin:nth-child(3){
+  margin-right: 0px
+} */
+
+/* .foot:nth-child(1){
+  margin-left: 5%;
+} */
+
+/* .foot:nth-child(2){
+  margin-left: 5%;
+} */
+
+/* .foot {
+  background-color: black;
+  color: #fff;
+} */
+.foot h2{
+  margin-left: 5%;
+}
+
+footer {
+  background-color: black;
+  color: #fff;
+  text-align: center;
+}
+
+.foot{
+  margin-top: 20px;
+}
+
+.foot a{
+  color: #fff;
+}
+
+.foot a:hover{
+  color: #008ed6;
+}
+#foot-margin {
+  margin-top: 10px;
+}
+.foot ul {
+  padding-left: 0px;
+}
+.foot li{
+  list-style-type: none;
+}
+.last {
+  margin-left: auto;
+  margin-right: auto;
+}
+.last li {
+  display: inline;
+  padding-right: 5%
+}
+
+.last a{
+  color: lemonchiffon;
+}
 #home-section {
   background: url("../img/home.jpg") no-repeat;
   background-size: cover;
